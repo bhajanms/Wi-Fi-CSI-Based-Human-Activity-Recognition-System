@@ -17,6 +17,6 @@ dataset/
 *.pth
 *.pt
 largemodels_need_work_to_make_it_accurate/
-model5/
+model5
 dataset/
 .venv/
