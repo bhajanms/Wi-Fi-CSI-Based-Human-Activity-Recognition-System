@@ -1,0 +1,43 @@
+name: frontend_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  shared_preferences: ^2.5.4
+  audioplayers: ^5.2.1
+
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.5
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+  lottie: ^3.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/alert.mp3
+    - assets/animations/walking.json
+    - assets/animations/sitting.json
+    - assets/animations/standing.json
+    - assets/animations/fall.json
+    - assets/animations/offline.json
+    - assets/animations/splash_animation.json
+
+    
